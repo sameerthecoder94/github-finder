@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UserItem = ({ userObj: { avatar_url, login_name, html_url } }) => {
+const UserItem = ({ userObj: { avatar_url, login, html_url } }) => {
   return (
     <div className='card text-center'>
       <img
@@ -10,7 +10,7 @@ const UserItem = ({ userObj: { avatar_url, login_name, html_url } }) => {
         className='round-img'
         style={{ width: '60px' }}
       />
-      <h3>{login_name}</h3>
+      <h3>{login}</h3>
       <a href={html_url}>More</a>
     </div>
   );
