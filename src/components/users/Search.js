@@ -10,7 +10,7 @@ const Search = ({ searchUsers, showClear, clearUsers, setAlert }) => {
       setAlert('Please enter something', 'light');
     } else {
       searchUsers(text);
-      setText({ text: '' });
+      setText('');
     }
   };
 
