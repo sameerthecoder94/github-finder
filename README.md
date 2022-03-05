@@ -1,4 +1,4 @@
-<img src="./md/github-finder-logo.jpeg">
+<img src="./github-finder-logo.jpeg">
 
 `App to search Github users and display their info.`
 
